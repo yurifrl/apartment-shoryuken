@@ -1,6 +1,6 @@
-# Apartment::Sidekiq
+# Apartment::Shoryuken
 
-Official Support for Sidekiq with the Apartment Gem.
+Official Support for Shoryuken with the Apartment Gem.
 
 This gem takes care of storing the current tenant that a job is enqueued within.
 It will then switch to that tenant for the duration of the job processing.
@@ -9,7 +9,7 @@ It will then switch to that tenant for the duration of the job processing.
 
 Add this line to your application's Gemfile:
 
-    gem 'apartment-sidekiq'
+    gem 'apartment-shoryuken'
 
 And then execute:
 
@@ -17,7 +17,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install apartment-sidekiq
+    $ gem install apartment-shoryuken
 
 ## Usage
 
@@ -34,5 +34,5 @@ it will run job within an `Apartment::Tenant.switch` block.
 5. Create new Pull Request
 
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/influitive/apartment-sidekiq/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/influitive/apartment-shoryuken/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
