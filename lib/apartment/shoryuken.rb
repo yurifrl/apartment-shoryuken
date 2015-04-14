@@ -7,7 +7,6 @@ require 'apartment/shoryuken/middleware/server'
 module Apartment
   module Shoryuken
     module Middleware
-
       def self.run
         ::Shoryuken.configure_client do |config|
           config.client_middleware do |chain|

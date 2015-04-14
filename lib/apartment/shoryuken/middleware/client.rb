@@ -1,7 +1,7 @@
 module Apartment::Shoryuken::Middleware
   class Client
-    def call(worker_class, item, queue, redis_pool=nil)
-      item["apartment"] ||= Apartment::Tenant.current
+    def call(options)
+    	options[:message_body]["apartment"] ||= Apartment::Tenant.current
       yield
     end
   end
