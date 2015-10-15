@@ -28,9 +28,9 @@ VOLUME .:/gem/
 # Comand
 CMD ["rake", "-T"]
 
-# docker build -t yurifrl/apartment-shoryuken .
-# docker run --rm yurifrl/apartment-shoryuken
+# sudo docker build -t yurifrl/apartment-shoryuken .
+# sudo docker run --rm yurifrl/apartment-shoryuken
 
-# docker run --rm -v ~/.gitconfig:/root/.gitconfig -v ~/.ssh/:/root/.ssh/ -v ~/.gem/:/root/.gem/ -v `pwd`:/gem/ yurifrl/apartment-shoryuken rake release
-# docker run --rm -ti -v ~/.gitconfig:/root/.gitconfig -v ~/.ssh/:/root/.ssh/ -v ~/.gem/:/root/.gem/ -v `pwd`:/gem/ yurifrl/apartment-shoryuken bash
-# docker run --rm -ti -v ~/.gitconfig:/root/.gitconfig -v ~/.ssh/:/root/.ssh/ -v ~/.gem/:/root/.gem/ -v `pwd`:/gem/ yurifrl/apartment-shoryuken sh release.sh
+# sudo docker run --rm -v ~/.gitconfig:/root/.gitconfig -v ~/.ssh/:/root/.ssh/ -v ~/.gem/:/root/.gem/ -v `pwd`:/gem/ yurifrl/apartment-shoryuken rake release
+# sudo docker run --rm -ti -v ~/.gitconfig:/root/.gitconfig -v ~/.ssh/:/root/.ssh/ -v ~/.gem/:/root/.gem/ -v `pwd`:/gem/ yurifrl/apartment-shoryuken bash
+# sudo docker run --rm -ti -v ~/.gitconfig:/root/.gitconfig -v ~/.ssh/:/root/.ssh/ -v ~/.gem/:/root/.gem/ -v `pwd`:/gem/ yurifrl/apartment-shoryuken sh release.sh
