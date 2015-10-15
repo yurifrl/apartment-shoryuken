@@ -18,3 +18,5 @@ WORKDIR $APP_HOME
 
 # Add files
 ADD . $APP_HOME
+
+# docker run --rm -v ~/.gitconfig:/root/.gitconfig -v ~/.ssh/:/root/.ssh/ -v ~/.gem/:/root/.gem/ -v `pwd`:/gem/ zedtux/switchery-rails rake release
