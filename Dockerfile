@@ -30,4 +30,7 @@ ENTRYPOINT ["bundle", "exec"]
 
 # Comand
 CMD ["rake", "-T"]
+
+# docker build -t yurifrl/apartment-shoryuken .
+# docker run --rm zedtux/switchery-rails
 # docker run --rm -v ~/.gitconfig:/root/.gitconfig -v ~/.ssh/:/root/.ssh/ -v ~/.gem/:/root/.gem/ -v `pwd`:/gem/ yurifrl/apartment-shoryuken rake release
