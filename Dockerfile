@@ -25,9 +25,6 @@ ADD . $APP_HOME
 # Import the gem source code
 VOLUME .:/gem/
 
-# Entrypoint
-ENTRYPOINT ["bundle", "exec"]
-
 # Comand
 CMD ["rake", "-T"]
 
