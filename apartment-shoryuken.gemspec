@@ -6,11 +6,11 @@ require 'apartment/shoryuken/version'
 Gem::Specification.new do |spec|
   spec.name          = "apartment-shoryuken"
   spec.version       = Apartment::Shoryuken::VERSION
-  spec.authors       = ["Brad Robertson"]
-  spec.email         = ["brad@influitive.com"]
+  spec.authors       = ["Yuri Freire Lima", "Brad Robertson"]
+  spec.email         = ["yurifrl@outlook.com"]
   spec.description   = %q{Enable Multi-tenant supported jobs to work with Shoryuken background worker}
   spec.summary       = %q{Shoryuken support for Apartment}
-  spec.homepage      = "https://github.com/influitive/apartment-shoryuken"
+  spec.homepage      = "https://github.com/yurifrl/apartment-shoryuken"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
