@@ -34,3 +34,7 @@ CMD ["rake", "-T"]
 # sudo docker run --rm -v ~/.gitconfig:/root/.gitconfig -v ~/.ssh/:/root/.ssh/ -v ~/.gem/:/root/.gem/ -v `pwd`:/gem/ yurifrl/apartment-shoryuken rake release
 # sudo docker run --rm -ti -v ~/.gitconfig:/root/.gitconfig -v ~/.ssh/:/root/.ssh/ -v ~/.gem/:/root/.gem/ -v `pwd`:/gem/ yurifrl/apartment-shoryuken bash
 # sudo docker run --rm -ti -v ~/.gitconfig:/root/.gitconfig -v ~/.ssh/:/root/.ssh/ -v ~/.gem/:/root/.gem/ -v `pwd`:/gem/ yurifrl/apartment-shoryuken sh release.sh
+
+# release
+# gem build apartment-shoryuken.gemspec
+# gem push apartment-shoryuken-0.0.1.pre.beta.gem
