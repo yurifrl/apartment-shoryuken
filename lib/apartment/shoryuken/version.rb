@@ -1,5 +1,5 @@
 module Apartment
   module Shoryuken
-    VERSION = "0.0.1-beta"
+    VERSION = "1.0.0"
   end
 end
